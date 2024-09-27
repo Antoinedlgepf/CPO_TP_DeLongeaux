@@ -20,10 +20,38 @@ public class TP1_convertisseur_DeLongeaux {
         System.out.println("Res"+ var1);
         
     }
-    public static CelciusVersKelvin()
+    public static double CelciusVersKelvin(double tcelcius)
     {
-        
-        
+        double res = tcelcius+275;
+        return res;
+    }
+    public static double FareinheitVerscelcius(double tFareinheit)
+    {
+        double res = (tFareinheit - 32 )*5/9;
+        return res;
+              
+    }
+    public static double KelvinVersCelcius(double tKelvin)
+    {
+        double res = tKelvin - 275;
+        return res;
+    }
+    public static double CelciusVersFarenheit(double tCelcius)
+    {
+        double res = (tCelcius * 9/5) + 32;
+        return res;
         
     }
+    public static double KelvinVersFarenheit (double tKelvin)
+    {
+        double res
+    }
+    public static double FarenheitVersKelvin(double tFarenheit)
+    {
+        
+    
+    }
+            
+            
+            
 }
